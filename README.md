@@ -1,3 +1,4 @@
 # ghostRansom
 ## Ransomware simulation. Use at your own risk.
-![Injection demo](/assets/images/ghostRansom.png)
+![Ransomware demo gui](/assets/images/ghostRansom.png)
+![Ransomware demo cli](/assets/images/ghostRansom.mp4)
