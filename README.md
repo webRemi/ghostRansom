@@ -4,7 +4,7 @@
   ### ❌ Gui skull drawing
 ### ✅ AES encryption/decryption
   ### ❌ AES padding/unpadding and remove garbage
-### ✅ Subdirectories spidering
+### ✅ Subdirectories automatic spidering
 ### ❌ Evade AV/EDR/XDR
 
 ![Ransomware demo gui](/assets/images/ghostRansom.gif)
