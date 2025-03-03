@@ -13,6 +13,9 @@
 - [ ] Evade AV/EDR/XDR
 - [ ] Anti reversing
 - [ ] Delete himself
+- [ ] Cleanup everything
+- [ ] Merge all modules
+- [ ] Cross platform support
 
 ### Demo
 ![Ransomware demo gui](/assets/images/ghostRansom.gif)
