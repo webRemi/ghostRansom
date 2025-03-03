@@ -4,12 +4,12 @@
 ![Ransomware chrono end gui](/assets/images/chrono_end.png)
 
 ### Features
-[] Gui with messages
+- [] Gui with messages
 [] Gui skull drawing
 [] AES encryption/decryption
 [] AES padding/unpadding and remove garbage
 [] Delete a file every X minutes
-[] Subdirectories automatic spidering
+[x] Subdirectories automatic spidering
 [] Evade AV/EDR/XDR
 [] Anti reversing
 [] Delete himself
