@@ -1,5 +1,8 @@
 # ghostRansom
 ## Ransomware simulation. Use at your own risk.
+![Ransomware chrono start gui](/assets/images/chrono_start.png)
+![Ransomware chrono end gui](/assets/images/chrono_end.png)
+
 ### ✅ Gui with messages
   ### ❌ Gui skull drawing
 ### ✅ AES encryption/decryption
