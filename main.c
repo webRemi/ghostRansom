@@ -9,7 +9,7 @@
 #define INFO "[>]"
 
 char key[] = {
-        0x61, 0x62, 0x6b, 0x65, 0x6c, 0x64, 0x6c, 0x77, 0x68, 0x73, 0x6b, 0x64, 0x6c, 0x66, 0x3b, 0x64
+        0x61, 0x62, 0x6b, 0x65, 0x6c, 0x64, 0x6c, 0x77, 0x68, 0x73, 0x6b, 0x64, 0x6c, 0x66, 0x3b, 0x64, 0x61, 0x62, 0x6b, 0x65, 0x6c, 0x64, 0x6c, 0x77, 0x68, 0x73, 0x6b, 0x64, 0x6c, 0x66, 0x3b, 0x64
 };
 
 unsigned char* code;
@@ -141,13 +141,13 @@ int main(int argc, char* argv[]) {
 
     printf("%s Starting program...\n", SUCCESS);
 
-    char* test[3] = { "test", "test2", "test3" };
-    for (int i = 0; i < 3; i++) {
+    //char* test[3] = { "test", "test2", "test3" };
+    //for (int i = 0; i < 3; i++) {
 
         unsigned int code_len;
         long file_size = NULL;
 
-        LPCSTR* lFileName = test[i];
+        LPCSTR* lFileName = argv[1];
         code = LoadFile(lFileName, &file_size);
 
         code_len = file_size;
@@ -163,7 +163,7 @@ int main(int argc, char* argv[]) {
         if (!WriteToFile(lFileName, encrypted_code, file_size)) {
             printf("%s WriteFile failed with error: %s\n", ERROR, GetLastError());
         }
-    }
+    //}
     printf("%s Altered file successfully", SUCCESS);
 
     return 0;
